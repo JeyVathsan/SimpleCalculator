@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Asstes/style.css">
+    <script src="Asstes/script.js" async></script>
+</head>
+
+<body>
+    <section class="sec">
+        <div class="container">
+            <div class="ansbox" id="output">
+
+            </div>
+
+
+            <div class="numcon">
+                <div class="one" onclick="display('1')">1</div>
+                <div class="two" onclick="display('2')">2</div>
+                <div class="three" onclick="display('3')">3</div>
+                <div class="spchar spa" onclick="display('/')">&#xf7;</div>
+                <div class="four" onclick="display('4')">4</div>
+                <div class="five" onclick="display('5')">5</div>
+                <div class="six" onclick="display('6')">6</div>
+                <div class="spchar spa" onclick="display('*')">x</div>
+                <div class="seven" onclick="display('7')">7</div>
+                <div class="eight" onclick="display('8')">8</div>
+                <div class="nine" onclick="display('9')">9</div>
+                <div class="spchar spa" onclick="clearEntry()">CE</div>
+                <div class="spchar" onclick="display('+')">+</div>
+                <div class="zero" onclick="display('0')">0</div>
+                <div class="spchar" onclick="display('-')">-</div>
+
+
+                <div class="one spa" onclick="square(outputsc.textContent)">sqre</div>
+                <div class="one spa" onclick="del()">Del</div>
+                <div class="one spa" onclick="dispaly('00')">00</div>
+                <div class="one spa" onclick="display('.')">.</div>
+                <div class="spchar equals spa" onclick="calculate()">=</div>
+            </div>
+        </div>
+    </section>
+   
+    
+</body>
+
+</html>

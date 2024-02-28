@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.sec{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(218, 210, 210),rgb(87, 74, 74));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px blue;
+}
+.numcon{
+    width: 100%;
+    height: 399px;
+    display: grid;
+    background-color: rgb(94, 91, 91);
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ansbox{
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    align-items: center;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.spchar{
+    color: white;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+   
+
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .15s;
+}
+.one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover,.nine:hover,.zero:hover,.spchar:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 0px blue;
+
+}
+.equals{
+    background-color: white;
+    color: black;
+}
+.equals:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.spa{
+    box-shadow: 0px 0px 10px 0px red;
+}
+
+
+
+
+@media(max-width:720px){
+
+}
+@media(max-width:480px){
+    .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.spchar{
+        width: 90px;
+    }
+
+}
+@media(max-width:408px){
+    .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.spchar{
+        width: 60px;
+    }
+    .container{
+        width: 280px;
+    }
+    
+}
