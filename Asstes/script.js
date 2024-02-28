@@ -6,6 +6,7 @@ function display(num) {
     }
  
     outputsc.textContent += num;
+    
 }
 function calculate() {
     try {

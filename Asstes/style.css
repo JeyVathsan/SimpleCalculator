@@ -86,6 +86,15 @@
     }
 
 }
+@media(max-width:415px){
+    .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.spchar{
+        width: 70px;
+    }
+    .container{
+        width: 360px;
+    }
+    
+}
 @media(max-width:408px){
     .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.spchar{
         width: 60px;
